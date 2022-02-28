@@ -4,6 +4,9 @@ syntax on
 set ruler
 set number
 set showcmd
+set autochdir
+set nowrapscan
+
 set showmatch
 
 set cursorline
