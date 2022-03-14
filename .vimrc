@@ -19,6 +19,9 @@ set termencoding=utf-8
 
 set cc=80,120
 
+set mouse=a
+set ttymouse=xterm2
+
 set cindent
 set autoindent
 set smartindent
