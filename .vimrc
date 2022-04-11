@@ -20,7 +20,11 @@ set termencoding=utf-8
 set cc=80,120
 
 set mouse=a
-set ttymouse=xterm2
+if has("mouse_sgr")
+    set ttymouse=sgr
+else
+    set ttymouse=xterm2
+end
 
 set cindent
 set autoindent
